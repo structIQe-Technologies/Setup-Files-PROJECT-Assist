@@ -1,11 +1,5 @@
 ﻿Imports Microsoft.Office.Tools.Ribbon
-Imports Microsoft.Office.Interop.Outlook
-Imports System.Windows.Forms
-Imports System.IO
-Imports Project_Assist_Common_Library
-Imports Aladdin.HASP
-Imports Microsoft.Office.Interop.Excel
-Imports System.Collections.Specialized
+Imports PROJECT_Assist_Common_Library
 
 Public Class StructIQe
 
