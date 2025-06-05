@@ -4,7 +4,7 @@ Imports PROJECT_Assist_Common_Library
 Public Class StructIQe
 
     Private Sub Button14_Click(sender As Object, e As RibbonControlEventArgs) Handles Button_Check_for_Updates.Click
-        'SharedRibbonButtons.Launch_Licensing_App()
+
         Program_Controls.UPDATE_Program()
 
     End Sub
