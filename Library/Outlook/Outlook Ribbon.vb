@@ -11,7 +11,28 @@ Public Class StructIQe
 
     Private Sub StructIQe_Load(ByVal sender As System.Object, ByVal e As RibbonUIEventArgs) Handles MyBase.Load
 
-        reset_ribbon()
+        'reset_ribbon()
+
+        hide_all_buttons()
+
+    End Sub
+
+    Sub hide_all_buttons()
+
+        Dim settings = AppSettings.LoadSettings()
+
+        If settings.User_Name = Nothing Then
+
+            grpProjectManager.Visible = False
+            grp_MailManager.Visible = False
+            grp_QualityButtons.Visible = False
+            grpTimeManager.Visible = False
+            grp_TaskManager.Visible = False
+        Else
+
+            Reset_ribbon()
+
+        End If
 
     End Sub
 
@@ -20,11 +41,11 @@ Public Class StructIQe
         'Load the settings from the JSON file
         Dim settings = AppSettings.LoadSettings()
 
+        grpProjectManager.Visible = True
+
         If SharedClass.LICENSE_check_silent(SettingsHelper.License_Project_Manager) = False Or settings.Project_management_license_Check = False Then
-            ' grpProjectManager.Visible = False
             btnNewProject.Visible = False
         Else
-            'grpProjectManager.Visible = True
             btnNewProject.Visible = True
         End If
         If SharedClass.LICENSE_check_silent(SettingsHelper.License_Mail_Manager) = False Or settings.Mail_management_license_Check = False Then
@@ -104,6 +125,8 @@ Public Class StructIQe
     Private Sub Button1_Click(sender As Object, e As RibbonControlEventArgs) Handles Button1.Click
 
         SharedRibbonButtons.Button_User_Settings()
+
+        hide_all_buttons()
 
     End Sub
 
