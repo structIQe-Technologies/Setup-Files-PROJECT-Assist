@@ -141,20 +141,20 @@
         '
         Me.Button5.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
         Me.Button5.KeyTip = "QC"
-        Me.Button5.Label = "Archive"
+        Me.Button5.Label = "File"
         Me.Button5.Name = "Button5"
-        Me.Button5.OfficeImageId = "MailMergeStartLabels"
-        Me.Button5.ScreenTip = "Archive"
+        Me.Button5.OfficeImageId = "MailMergeStartMailMergeMenu"
+        Me.Button5.ScreenTip = "File"
         Me.Button5.ShowImage = True
         '
         'Button6
         '
         Me.Button6.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
         Me.Button6.KeyTip = "QC"
-        Me.Button6.Label = "Archive multiple"
+        Me.Button6.Label = "Retrieve"
         Me.Button6.Name = "Button6"
-        Me.Button6.OfficeImageId = "MailMergeStartMailMergeMenu"
-        Me.Button6.ScreenTip = "Archive multiple"
+        Me.Button6.OfficeImageId = "MailMergeWizard"
+        Me.Button6.ScreenTip = "Retrieve"
         Me.Button6.ShowImage = True
         '
         'grp_QualityButtons
@@ -169,10 +169,10 @@
         '
         Me.btnSubmit_for_QC.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
         Me.btnSubmit_for_QC.KeyTip = "QC"
-        Me.btnSubmit_for_QC.Label = "Submit for QC"
+        Me.btnSubmit_for_QC.Label = "Submit"
         Me.btnSubmit_for_QC.Name = "btnSubmit_for_QC"
         Me.btnSubmit_for_QC.OfficeImageId = "ListToolImport"
-        Me.btnSubmit_for_QC.ScreenTip = "Submit for QC"
+        Me.btnSubmit_for_QC.ScreenTip = "Submit"
         Me.btnSubmit_for_QC.ShowImage = True
         Me.btnSubmit_for_QC.SuperTip = "Submit Documents, Drawings or any other type of File for Internal Quality Checks." &
     ""
@@ -181,10 +181,10 @@
         '
         Me.Button2.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
         Me.Button2.KeyTip = "QC"
-        Me.Button2.Label = "Submit QC Status"
+        Me.Button2.Label = "Status"
         Me.Button2.Name = "Button2"
         Me.Button2.OfficeImageId = "ReviewingPane"
-        Me.Button2.ScreenTip = "Submit QC Status"
+        Me.Button2.ScreenTip = "Status"
         Me.Button2.ShowImage = True
         Me.Button2.SuperTip = "Submit QC Report for the Documents, Drawings or any other type of File after Inte" &
     "rnal Quality Checks."
@@ -193,10 +193,10 @@
         '
         Me.Button17.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
         Me.Button17.KeyTip = "QC"
-        Me.Button17.Label = "Review QC Status"
+        Me.Button17.Label = "Review"
         Me.Button17.Name = "Button17"
-        Me.Button17.OfficeImageId = "ReviewingPane"
-        Me.Button17.ScreenTip = "Review QC Status"
+        Me.Button17.OfficeImageId = "MailMergeMatchFields"
+        Me.Button17.ScreenTip = "Review"
         Me.Button17.ShowImage = True
         Me.Button17.SuperTip = "Review QC Status/Reports for all Documents, Drawings or any other type of File fo" &
     "r a Project."
@@ -289,17 +289,17 @@
         '
         Me.Group1.Items.Add(Me.Button1)
         Me.Group1.Items.Add(Me.btnLicenseOptions)
-        Me.Group1.Label = "User Settings"
+        Me.Group1.Label = "Settings"
         Me.Group1.Name = "Group1"
         '
         'Button1
         '
         Me.Button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
         Me.Button1.KeyTip = "QC"
-        Me.Button1.Label = "User Settings"
+        Me.Button1.Label = "User"
         Me.Button1.Name = "Button1"
         Me.Button1.OfficeImageId = "AccountSettings"
-        Me.Button1.ScreenTip = "User Settings"
+        Me.Button1.ScreenTip = "User"
         Me.Button1.ShowImage = True
         Me.Button1.SuperTip = "Update user settings such as Username, Project Group, Project directory, and more" &
     "."
@@ -308,10 +308,10 @@
         '
         Me.btnLicenseOptions.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
         Me.btnLicenseOptions.KeyTip = "QC"
-        Me.btnLicenseOptions.Label = "License Options"
+        Me.btnLicenseOptions.Label = "License"
         Me.btnLicenseOptions.Name = "btnLicenseOptions"
         Me.btnLicenseOptions.OfficeImageId = "InsertHighPrivilegeBlock"
-        Me.btnLicenseOptions.ScreenTip = "License Options"
+        Me.btnLicenseOptions.ScreenTip = "License"
         Me.btnLicenseOptions.ShowImage = True
         '
         'grpCompanySettings
@@ -338,10 +338,10 @@
         '
         Me.Button12.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
         Me.Button12.KeyTip = "QC"
-        Me.Button12.Label = "User Profiles"
+        Me.Button12.Label = "Users"
         Me.Button12.Name = "Button12"
         Me.Button12.OfficeImageId = "InviteAttendees"
-        Me.Button12.ScreenTip = "User Profiles"
+        Me.Button12.ScreenTip = "Users"
         Me.Button12.ShowImage = True
         Me.Button12.SuperTip = "Manage users and define their roles within your company."
         '
@@ -368,10 +368,10 @@
         '
         Me.Button_Check_for_Updates.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
         Me.Button_Check_for_Updates.KeyTip = "QC"
-        Me.Button_Check_for_Updates.Label = "Check for Updates"
+        Me.Button_Check_for_Updates.Label = "Updates"
         Me.Button_Check_for_Updates.Name = "Button_Check_for_Updates"
         Me.Button_Check_for_Updates.OfficeImageId = "Recurrence"
-        Me.Button_Check_for_Updates.ScreenTip = "Check for Updates"
+        Me.Button_Check_for_Updates.ScreenTip = "Updates"
         Me.Button_Check_for_Updates.ShowImage = True
         '
         'Button3
