@@ -17,7 +17,7 @@ Public Class StructIQe
 
     End Sub
 
-    Sub hide_all_buttons()
+    Sub Hide_all_buttons()
 
         Dim settings = AppSettings.LoadSettings()
 
@@ -91,13 +91,13 @@ Public Class StructIQe
 
     Private Sub Button5_Click(sender As Object, e As RibbonControlEventArgs) Handles Button5.Click
 
-        SharedRibbonButtons.Button_Archive_this_mail()
+        Shared_MailManagement_Class.Button_File_mails()
 
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As RibbonControlEventArgs) Handles Button6.Click
 
-        SharedRibbonButtons.Button_Archive_multiple_mails()
+        Shared_MailManagement_Class.Button_Retrieve_mails()
 
     End Sub
 
